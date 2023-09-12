@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBios.PatientAdministration", "eBios.PatientAdministration\eBios.PatientAdministration.csproj", "{19BB0310-05CB-4190-9EFF-6F87F41C93F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBios.Api.PatientAdministration.Application", "eBios.Api.PatientAdministration.Application\eBios.Api.PatientAdministration.Application.csproj", "{76258184-0411-47EB-9DDC-5AF754D0A8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBios.Api.PatientAdministration.Commands", "eBios.Api.PatientAdministration.Commands\eBios.Api.PatientAdministration.Commands.csproj", "{042DD344-294D-4D84-BA1E-47687AE31E10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19BB0310-05CB-4190-9EFF-6F87F41C93F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BB0310-05CB-4190-9EFF-6F87F41C93F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BB0310-05CB-4190-9EFF-6F87F41C93F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BB0310-05CB-4190-9EFF-6F87F41C93F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76258184-0411-47EB-9DDC-5AF754D0A8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76258184-0411-47EB-9DDC-5AF754D0A8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76258184-0411-47EB-9DDC-5AF754D0A8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76258184-0411-47EB-9DDC-5AF754D0A8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042DD344-294D-4D84-BA1E-47687AE31E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042DD344-294D-4D84-BA1E-47687AE31E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042DD344-294D-4D84-BA1E-47687AE31E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042DD344-294D-4D84-BA1E-47687AE31E10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E2A2010-707E-4CF3-B1E1-937A73E50FDF}
+	EndGlobalSection
+EndGlobal
