@@ -1,7 +1,10 @@
 
 using eBios.Api.PatientAdministration.Application;
-using Microsoft.Extensions.DependencyInjection;
 using MediatR;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -13,7 +16,6 @@ internal class Program
         builder.Services.AddControllers();
 
         builder.Services.AddMediatR(typeof(MediatorType).Assembly);
-
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
