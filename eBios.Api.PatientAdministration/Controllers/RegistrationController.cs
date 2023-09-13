@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace eBios.PatientAdministration.Controllers
+namespace eBios.Api.PatientAdministration.Controllers
 {
     
     [ApiController]

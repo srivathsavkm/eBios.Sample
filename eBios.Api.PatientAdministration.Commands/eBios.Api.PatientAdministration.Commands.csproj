@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eBios.Api.PatientAdministration.Application\eBios.Api.PatientAdministration.Application.csproj" />
+    <Compile Remove="RegistrationCommands\**" />
+    <EmbeddedResource Remove="RegistrationCommands\**" />
+    <None Remove="RegistrationCommands\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RegistrationCommands\" />
+    <ProjectReference Include="..\eBios.Api.PatientAdministration.Application\eBios.Api.PatientAdministration.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

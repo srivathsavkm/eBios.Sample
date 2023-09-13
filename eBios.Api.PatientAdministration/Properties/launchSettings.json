@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "eBios.PatientAdministration": {
+    "eBios.Api.PatientAdministration": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
