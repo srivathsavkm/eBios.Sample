@@ -1,4 +1,5 @@
 ﻿using eBios.Api.PatientAdministration.Application.Commands;
+using eBios.Api.PatientAdministration.Service.Interface;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,15 +10,15 @@ namespace eBios.Api.PatientAdministration.Controllers
     [Route("[controller]")]
     public class RegistrationController : ControllerBase
     {
-        private readonly IMediator _mediator;
-        public RegistrationController(IMediator mediator)
+        private readonly IRegistration _registration;
+        public RegistrationController(IRegistration registration)
         {
-            _mediator = mediator;
+            _registration= registration;
         }
         [HttpGet]
-        public IActionResult GetPatient([FromQuery] GetPatientQuery model)
+        public IActionResult GetPatient([FromQuery] int patientId)
         {
-            var response = _mediator.Send(model);
+            var response = _registration.GetRegistration(patientId);
 
             return Ok(response);
         }

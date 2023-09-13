@@ -1,5 +1,7 @@
 
 using eBios.Api.PatientAdministration.Application;
+using eBios.Api.PatientAdministration.Service;
+using eBios.Api.PatientAdministration.Service.Interface;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +18,7 @@ internal class Program
         builder.Services.AddControllers();
 
         builder.Services.AddMediatR(typeof(MediatorType).Assembly);
-
+        builder.Services.AddScoped<IRegistration, RegistrationService>();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
         builder.Services.AddEndpointsApiExplorer();
