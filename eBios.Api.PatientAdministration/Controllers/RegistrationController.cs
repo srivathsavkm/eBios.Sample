@@ -1,11 +1,9 @@
-﻿using eBios.Api.PatientAdministration.Application.Commands;
-using eBios.Api.PatientAdministration.Service.Interface;
-using MediatR;
+﻿using eBios.Api.PatientAdministration.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace eBios.Api.PatientAdministration.Controllers
 {
-    
+
     [ApiController]
     [Route("[controller]")]
     public class RegistrationController : ControllerBase
